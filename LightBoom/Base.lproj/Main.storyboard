@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sJH-6H-5v8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="ahn-cJ-OAL">
+            <objects>
+                <viewController storyboardIdentifier="GameViewController" id="EqJ-fq-4DG" customClass="KOKGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eu6-4e-LaG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="7rW-4K-Cno">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qmk-5w-9Td"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7rW-4K-Cno" firstAttribute="top" secondItem="eu6-4e-LaG" secondAttribute="top" id="2Lz-xk-F1l"/>
+                            <constraint firstAttribute="bottom" secondItem="7rW-4K-Cno" secondAttribute="bottom" id="7ml-VT-d7m"/>
+                            <constraint firstItem="7rW-4K-Cno" firstAttribute="leading" secondItem="qmk-5w-9Td" secondAttribute="leading" id="KbS-9L-bWL"/>
+                            <constraint firstItem="7rW-4K-Cno" firstAttribute="trailing" secondItem="qmk-5w-9Td" secondAttribute="trailing" id="sK2-8E-hap"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OTn-U6-4BV"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="fSe-f8-nyN" kind="presentation" identifier="info" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="0JW-Wb-gXc"/>
+                        <segue destination="xPZ-Wc-eMH" kind="presentation" identifier="SettingsSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="LkX-xa-zej"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0r-jw-Jam" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3156.521739130435" y="-256.47321428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CKC-cK-EUx">
+            <objects>
+                <viewController storyboardIdentifier="mainStoryboard" id="sJH-6H-5v8" customClass="KOKViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" id="khC-ue-M32">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gO1-Qo-e9y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" text="Football" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" id="FnL-lR-Qom">
+                                <rect key="frame" x="0.0" y="37" width="702" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="49"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.5841730812" green="0.73672889009999998" blue="0.95266661350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vmY-PF-CRd"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gO1-Qo-e9y" firstAttribute="leading" secondItem="vmY-PF-CRd" secondAttribute="leading" id="fH0-4l-QFq"/>
+                            <constraint firstAttribute="bottom" secondItem="gO1-Qo-e9y" secondAttribute="bottom" id="hua-Ha-cay"/>
+                            <constraint firstItem="gO1-Qo-e9y" firstAttribute="top" secondItem="khC-ue-M32" secondAttribute="top" id="nfp-16-se3"/>
+                            <constraint firstItem="gO1-Qo-e9y" firstAttribute="trailing" secondItem="vmY-PF-CRd" secondAttribute="trailing" id="r2j-ZS-Ve3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YHt-i2-P3l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9p-Cq-skg" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2311.594202898551" y="-389.0625"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="DSw-K9-qTG">
+            <objects>
+                <viewController id="xPZ-Wc-eMH" customClass="KOKSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QCl-CP-cm2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="yLO-43-czF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-8" translatesAutoresizingMaskIntoConstraints="NO" id="uzo-WO-TrF">
+                                <rect key="frame" x="127" y="248" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="5Aa-li-McQ"/>
+                                    <constraint firstAttribute="width" constant="160" id="QP9-Ay-iVL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7IK-J7-U6E"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="yLO-43-czF" secondAttribute="bottom" id="QLF-KM-rw5"/>
+                            <constraint firstItem="yLO-43-czF" firstAttribute="leading" secondItem="QCl-CP-cm2" secondAttribute="leading" id="WCn-Y7-o8l"/>
+                            <constraint firstItem="uzo-WO-TrF" firstAttribute="centerY" secondItem="QCl-CP-cm2" secondAttribute="centerY" constant="-120" id="goC-Qc-E7K"/>
+                            <constraint firstAttribute="trailing" secondItem="yLO-43-czF" secondAttribute="trailing" id="ssj-hf-ufE"/>
+                            <constraint firstItem="yLO-43-czF" firstAttribute="top" secondItem="QCl-CP-cm2" secondAttribute="top" id="x8h-S8-oan"/>
+                            <constraint firstItem="uzo-WO-TrF" firstAttribute="centerX" secondItem="QCl-CP-cm2" secondAttribute="centerX" id="z4a-E5-ily"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="EqJ-fq-4DG" kind="presentation" identifier="GameSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="YZK-8g-0kM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLv-fV-qoV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4195.652173913044" y="-328.125"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="LPm-5j-7H3">
+            <objects>
+                <viewController id="fSe-f8-nyN" customClass="KOKInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VWg-Al-p4O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="wYM-18-Liw">
+                                <rect key="frame" x="9" y="9" width="396" height="887"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qN9-eA-ZvX"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wYM-18-Liw" firstAttribute="leading" secondItem="VWg-Al-p4O" secondAttribute="leading" constant="9" id="P0L-CG-kcr"/>
+                            <constraint firstAttribute="trailing" secondItem="wYM-18-Liw" secondAttribute="trailing" constant="9" id="UMS-r9-FxC"/>
+                            <constraint firstItem="wYM-18-Liw" firstAttribute="top" secondItem="VWg-Al-p4O" secondAttribute="top" constant="9" id="W6h-k8-Vkc"/>
+                            <constraint firstAttribute="bottom" secondItem="wYM-18-Liw" secondAttribute="bottom" id="mSp-qI-Fpd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hR6-RB-c1H"/>
+                    <connections>
+                        <segue destination="EqJ-fq-4DG" kind="presentation" identifier="GameSegue2" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="U6G-FY-AYY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fxe-tT-UFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3866.666666666667" y="-1056.0267857142858"/>
+        </scene>
+        <!--Game Win View Controller-->
+        <scene sceneID="5Q1-fY-3rQ">
+            <objects>
+                <viewController storyboardIdentifier="GameWinViewController" id="vNF-ZE-DqF" customClass="KOKGameWinViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uGM-4C-Pwj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="1XB-7O-a8H">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xHo-8R-v0g"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1XB-7O-a8H" firstAttribute="top" secondItem="uGM-4C-Pwj" secondAttribute="top" id="g5z-GB-P8L"/>
+                            <constraint firstAttribute="bottom" secondItem="1XB-7O-a8H" secondAttribute="bottom" id="kjP-kB-a5Z"/>
+                            <constraint firstAttribute="trailing" secondItem="1XB-7O-a8H" secondAttribute="trailing" id="uVm-nK-HGR"/>
+                            <constraint firstItem="1XB-7O-a8H" firstAttribute="leading" secondItem="uGM-4C-Pwj" secondAttribute="leading" id="vVb-hW-z4h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="EqJ-fq-4DG" kind="presentation" identifier="PlaySegue" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="tC6-OB-iSq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLl-hD-xh4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2773.913043478261" y="-1120.3125"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YZK-8g-0kM"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="bg" width="250" height="444.66665649414062"/>
+        <image name="icon-8" width="83.5" height="83.5"/>
+    </resources>
+</document>

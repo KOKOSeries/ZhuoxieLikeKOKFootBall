@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4054BB222578B7930073DF26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB212578B7930073DF26 /* AppDelegate.m */; };
+		4054BB252578B7930073DF26 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB242578B7930073DF26 /* SceneDelegate.m */; };
+		4054BB282578B7930073DF26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB272578B7930073DF26 /* ViewController.m */; };
+		4054BB2B2578B7930073DF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4054BB292578B7930073DF26 /* Main.storyboard */; };
+		4054BB2D2578B7960073DF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4054BB2C2578B7960073DF26 /* Assets.xcassets */; };
+		4054BB302578B7960073DF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4054BB2E2578B7960073DF26 /* LaunchScreen.storyboard */; };
+		4054BB332578B7960073DF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB322578B7960073DF26 /* main.m */; };
+		4054BB3D2578B7960073DF26 /* LightBoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB3C2578B7960073DF26 /* LightBoomTests.m */; };
+		4054BB482578B7960073DF26 /* LightBoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB472578B7960073DF26 /* LightBoomUITests.m */; };
+		4054BB5A2578B9040073DF26 /* KOKcontainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB592578B9040073DF26 /* KOKcontainerView.m */; };
+		4054BB632578B9210073DF26 /* KOKHelperMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB622578B9210073DF26 /* KOKHelperMethods.m */; };
+		4054BB692578B93A0073DF26 /* KOKJewel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB682578B93A0073DF26 /* KOKJewel.m */; };
+		4054BB6F2578B94C0073DF26 /* KOKjewelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB6E2578B94C0073DF26 /* KOKjewelButton.m */; };
+		4054BB752578B9620073DF26 /* KOKGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB742578B9620073DF26 /* KOKGame.m */; };
+		4054BB7C2578B9930073DF26 /* KOKpanelBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB7B2578B9930073DF26 /* KOKpanelBox.m */; };
+		4054BB852578B9AA0073DF26 /* KOKpanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB842578B9AA0073DF26 /* KOKpanelView.m */; };
+		4054BB8B2578B9D40073DF26 /* KOKPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB8A2578B9D40073DF26 /* KOKPersistence.m */; };
+		4054BB922578BA360073DF26 /* KOKGameWinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB912578BA360073DF26 /* KOKGameWinViewController.m */; };
+		4054BB9B2578BA490073DF26 /* KOKGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BB9A2578BA490073DF26 /* KOKGameViewController.m */; };
+		4054BBA12578BA5A0073DF26 /* KOKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBA02578BA5A0073DF26 /* KOKSettingsViewController.m */; };
+		4054BBA72578BA710073DF26 /* KOKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBA62578BA710073DF26 /* KOKViewController.m */; };
+		4054BBAD2578BA8B0073DF26 /* KOKInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBAC2578BA8B0073DF26 /* KOKInfoViewController.m */; };
+		4054BBB52578BAFA0073DF26 /* KOKStandardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBB42578BAFA0073DF26 /* KOKStandardButton.m */; };
+		4054BBBE2578BB0E0073DF26 /* KOKTileBurst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBBD2578BB0E0073DF26 /* KOKTileBurst.m */; };
+		4054BBC42578BB280073DF26 /* KOKTileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBC32578BB280073DF26 /* KOKTileCell.m */; };
+		4054BBCA2578BB440073DF26 /* KOKTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4054BBC92578BB440073DF26 /* KOKTileView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4054BB392578B7960073DF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4054BB152578B7930073DF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4054BB1C2578B7930073DF26;
+			remoteInfo = LightBoom;
+		};
+		4054BB442578B7960073DF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4054BB152578B7930073DF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4054BB1C2578B7930073DF26;
+			remoteInfo = LightBoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4054BB1D2578B7930073DF26 /* LightBoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightBoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4054BB202578B7930073DF26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4054BB212578B7930073DF26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4054BB232578B7930073DF26 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4054BB242578B7930073DF26 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4054BB262578B7930073DF26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4054BB272578B7930073DF26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4054BB2A2578B7930073DF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4054BB2C2578B7960073DF26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4054BB2F2578B7960073DF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4054BB312578B7960073DF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4054BB322578B7960073DF26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4054BB382578B7960073DF26 /* LightBoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightBoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4054BB3C2578B7960073DF26 /* LightBoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightBoomTests.m; sourceTree = "<group>"; };
+		4054BB3E2578B7960073DF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4054BB432578B7960073DF26 /* LightBoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightBoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4054BB472578B7960073DF26 /* LightBoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightBoomUITests.m; sourceTree = "<group>"; };
+		4054BB492578B7960073DF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4054BB582578B9040073DF26 /* KOKcontainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKcontainerView.h; sourceTree = "<group>"; };
+		4054BB592578B9040073DF26 /* KOKcontainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKcontainerView.m; sourceTree = "<group>"; };
+		4054BB612578B9210073DF26 /* KOKHelperMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKHelperMethods.h; sourceTree = "<group>"; };
+		4054BB622578B9210073DF26 /* KOKHelperMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKHelperMethods.m; sourceTree = "<group>"; };
+		4054BB672578B93A0073DF26 /* KOKJewel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKJewel.h; sourceTree = "<group>"; };
+		4054BB682578B93A0073DF26 /* KOKJewel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKJewel.m; sourceTree = "<group>"; };
+		4054BB6D2578B94C0073DF26 /* KOKjewelButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKjewelButton.h; sourceTree = "<group>"; };
+		4054BB6E2578B94C0073DF26 /* KOKjewelButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKjewelButton.m; sourceTree = "<group>"; };
+		4054BB732578B9620073DF26 /* KOKGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKGame.h; sourceTree = "<group>"; };
+		4054BB742578B9620073DF26 /* KOKGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKGame.m; sourceTree = "<group>"; };
+		4054BB7A2578B9930073DF26 /* KOKpanelBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKpanelBox.h; sourceTree = "<group>"; };
+		4054BB7B2578B9930073DF26 /* KOKpanelBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKpanelBox.m; sourceTree = "<group>"; };
+		4054BB832578B9AA0073DF26 /* KOKpanelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKpanelView.h; sourceTree = "<group>"; };
+		4054BB842578B9AA0073DF26 /* KOKpanelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKpanelView.m; sourceTree = "<group>"; };
+		4054BB892578B9D40073DF26 /* KOKPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKPersistence.h; sourceTree = "<group>"; };
+		4054BB8A2578B9D40073DF26 /* KOKPersistence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKPersistence.m; sourceTree = "<group>"; };
+		4054BB902578BA360073DF26 /* KOKGameWinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKGameWinViewController.h; sourceTree = "<group>"; };
+		4054BB912578BA360073DF26 /* KOKGameWinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKGameWinViewController.m; sourceTree = "<group>"; };
+		4054BB992578BA490073DF26 /* KOKGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKGameViewController.h; sourceTree = "<group>"; };
+		4054BB9A2578BA490073DF26 /* KOKGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKGameViewController.m; sourceTree = "<group>"; };
+		4054BB9F2578BA5A0073DF26 /* KOKSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKSettingsViewController.h; sourceTree = "<group>"; };
+		4054BBA02578BA5A0073DF26 /* KOKSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKSettingsViewController.m; sourceTree = "<group>"; };
+		4054BBA52578BA710073DF26 /* KOKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKViewController.h; sourceTree = "<group>"; };
+		4054BBA62578BA710073DF26 /* KOKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKViewController.m; sourceTree = "<group>"; };
+		4054BBAB2578BA8B0073DF26 /* KOKInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKInfoViewController.h; sourceTree = "<group>"; };
+		4054BBAC2578BA8B0073DF26 /* KOKInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKInfoViewController.m; sourceTree = "<group>"; };
+		4054BBB32578BAFA0073DF26 /* KOKStandardButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKStandardButton.h; sourceTree = "<group>"; };
+		4054BBB42578BAFA0073DF26 /* KOKStandardButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKStandardButton.m; sourceTree = "<group>"; };
+		4054BBBC2578BB0E0073DF26 /* KOKTileBurst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKTileBurst.h; sourceTree = "<group>"; };
+		4054BBBD2578BB0E0073DF26 /* KOKTileBurst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKTileBurst.m; sourceTree = "<group>"; };
+		4054BBC22578BB280073DF26 /* KOKTileCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKTileCell.h; sourceTree = "<group>"; };
+		4054BBC32578BB280073DF26 /* KOKTileCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKTileCell.m; sourceTree = "<group>"; };
+		4054BBC82578BB440073DF26 /* KOKTileView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOKTileView.h; sourceTree = "<group>"; };
+		4054BBC92578BB440073DF26 /* KOKTileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOKTileView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4054BB1A2578B7930073DF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4054BB352578B7960073DF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4054BB402578B7960073DF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4054BB142578B7930073DF26 = {
+			isa = PBXGroup;
+			children = (
+				4054BB1F2578B7930073DF26 /* LightBoom */,
+				4054BB3B2578B7960073DF26 /* LightBoomTests */,
+				4054BB462578B7960073DF26 /* LightBoomUITests */,
+				4054BB1E2578B7930073DF26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4054BB1E2578B7930073DF26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4054BB1D2578B7930073DF26 /* LightBoom.app */,
+				4054BB382578B7960073DF26 /* LightBoomTests.xctest */,
+				4054BB432578B7960073DF26 /* LightBoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4054BB1F2578B7930073DF26 /* LightBoom */ = {
+			isa = PBXGroup;
+			children = (
+				4054BB202578B7930073DF26 /* AppDelegate.h */,
+				4054BB212578B7930073DF26 /* AppDelegate.m */,
+				4054BB582578B9040073DF26 /* KOKcontainerView.h */,
+				4054BB592578B9040073DF26 /* KOKcontainerView.m */,
+				4054BB612578B9210073DF26 /* KOKHelperMethods.h */,
+				4054BB622578B9210073DF26 /* KOKHelperMethods.m */,
+				4054BB672578B93A0073DF26 /* KOKJewel.h */,
+				4054BB682578B93A0073DF26 /* KOKJewel.m */,
+				4054BB6D2578B94C0073DF26 /* KOKjewelButton.h */,
+				4054BB6E2578B94C0073DF26 /* KOKjewelButton.m */,
+				4054BB732578B9620073DF26 /* KOKGame.h */,
+				4054BB742578B9620073DF26 /* KOKGame.m */,
+				4054BB792578B97A0073DF26 /* vc */,
+				4054BB8F2578BA150073DF26 /* ViewControllers */,
+				4054BBB22578BAE40073DF26 /* view */,
+				4054BBB12578BAC90073DF26 /* graphics */,
+				4054BB232578B7930073DF26 /* SceneDelegate.h */,
+				4054BB242578B7930073DF26 /* SceneDelegate.m */,
+				4054BB262578B7930073DF26 /* ViewController.h */,
+				4054BB272578B7930073DF26 /* ViewController.m */,
+				4054BB292578B7930073DF26 /* Main.storyboard */,
+				4054BB2C2578B7960073DF26 /* Assets.xcassets */,
+				4054BB2E2578B7960073DF26 /* LaunchScreen.storyboard */,
+				4054BB312578B7960073DF26 /* Info.plist */,
+				4054BB322578B7960073DF26 /* main.m */,
+			);
+			path = LightBoom;
+			sourceTree = "<group>";
+		};
+		4054BB3B2578B7960073DF26 /* LightBoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				4054BB3C2578B7960073DF26 /* LightBoomTests.m */,
+				4054BB3E2578B7960073DF26 /* Info.plist */,
+			);
+			path = LightBoomTests;
+			sourceTree = "<group>";
+		};
+		4054BB462578B7960073DF26 /* LightBoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4054BB472578B7960073DF26 /* LightBoomUITests.m */,
+				4054BB492578B7960073DF26 /* Info.plist */,
+			);
+			path = LightBoomUITests;
+			sourceTree = "<group>";
+		};
+		4054BB792578B97A0073DF26 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				4054BB7A2578B9930073DF26 /* KOKpanelBox.h */,
+				4054BB7B2578B9930073DF26 /* KOKpanelBox.m */,
+				4054BB832578B9AA0073DF26 /* KOKpanelView.h */,
+				4054BB842578B9AA0073DF26 /* KOKpanelView.m */,
+				4054BB892578B9D40073DF26 /* KOKPersistence.h */,
+				4054BB8A2578B9D40073DF26 /* KOKPersistence.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		4054BB8F2578BA150073DF26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4054BB902578BA360073DF26 /* KOKGameWinViewController.h */,
+				4054BB912578BA360073DF26 /* KOKGameWinViewController.m */,
+				4054BB992578BA490073DF26 /* KOKGameViewController.h */,
+				4054BB9A2578BA490073DF26 /* KOKGameViewController.m */,
+				4054BB9F2578BA5A0073DF26 /* KOKSettingsViewController.h */,
+				4054BBA02578BA5A0073DF26 /* KOKSettingsViewController.m */,
+				4054BBA52578BA710073DF26 /* KOKViewController.h */,
+				4054BBA62578BA710073DF26 /* KOKViewController.m */,
+				4054BBAB2578BA8B0073DF26 /* KOKInfoViewController.h */,
+				4054BBAC2578BA8B0073DF26 /* KOKInfoViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4054BBB12578BAC90073DF26 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		4054BBB22578BAE40073DF26 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4054BBB32578BAFA0073DF26 /* KOKStandardButton.h */,
+				4054BBB42578BAFA0073DF26 /* KOKStandardButton.m */,
+				4054BBBC2578BB0E0073DF26 /* KOKTileBurst.h */,
+				4054BBBD2578BB0E0073DF26 /* KOKTileBurst.m */,
+				4054BBC22578BB280073DF26 /* KOKTileCell.h */,
+				4054BBC32578BB280073DF26 /* KOKTileCell.m */,
+				4054BBC82578BB440073DF26 /* KOKTileView.h */,
+				4054BBC92578BB440073DF26 /* KOKTileView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4054BB1C2578B7930073DF26 /* LightBoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4054BB4C2578B7960073DF26 /* Build configuration list for PBXNativeTarget "LightBoom" */;
+			buildPhases = (
+				4054BB192578B7930073DF26 /* Sources */,
+				4054BB1A2578B7930073DF26 /* Frameworks */,
+				4054BB1B2578B7930073DF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightBoom;
+			productName = LightBoom;
+			productReference = 4054BB1D2578B7930073DF26 /* LightBoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4054BB372578B7960073DF26 /* LightBoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4054BB4F2578B7960073DF26 /* Build configuration list for PBXNativeTarget "LightBoomTests" */;
+			buildPhases = (
+				4054BB342578B7960073DF26 /* Sources */,
+				4054BB352578B7960073DF26 /* Frameworks */,
+				4054BB362578B7960073DF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4054BB3A2578B7960073DF26 /* PBXTargetDependency */,
+			);
+			name = LightBoomTests;
+			productName = LightBoomTests;
+			productReference = 4054BB382578B7960073DF26 /* LightBoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4054BB422578B7960073DF26 /* LightBoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4054BB522578B7960073DF26 /* Build configuration list for PBXNativeTarget "LightBoomUITests" */;
+			buildPhases = (
+				4054BB3F2578B7960073DF26 /* Sources */,
+				4054BB402578B7960073DF26 /* Frameworks */,
+				4054BB412578B7960073DF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4054BB452578B7960073DF26 /* PBXTargetDependency */,
+			);
+			name = LightBoomUITests;
+			productName = LightBoomUITests;
+			productReference = 4054BB432578B7960073DF26 /* LightBoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4054BB152578B7930073DF26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KOK;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4054BB1C2578B7930073DF26 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4054BB372578B7960073DF26 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4054BB1C2578B7930073DF26;
+					};
+					4054BB422578B7960073DF26 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4054BB1C2578B7930073DF26;
+					};
+				};
+			};
+			buildConfigurationList = 4054BB182578B7930073DF26 /* Build configuration list for PBXProject "LightBoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4054BB142578B7930073DF26;
+			productRefGroup = 4054BB1E2578B7930073DF26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4054BB1C2578B7930073DF26 /* LightBoom */,
+				4054BB372578B7960073DF26 /* LightBoomTests */,
+				4054BB422578B7960073DF26 /* LightBoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4054BB1B2578B7930073DF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4054BB302578B7960073DF26 /* LaunchScreen.storyboard in Resources */,
+				4054BB2D2578B7960073DF26 /* Assets.xcassets in Resources */,
+				4054BB2B2578B7930073DF26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4054BB362578B7960073DF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4054BB412578B7960073DF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4054BB192578B7930073DF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4054BB752578B9620073DF26 /* KOKGame.m in Sources */,
+				4054BB8B2578B9D40073DF26 /* KOKPersistence.m in Sources */,
+				4054BBCA2578BB440073DF26 /* KOKTileView.m in Sources */,
+				4054BBA72578BA710073DF26 /* KOKViewController.m in Sources */,
+				4054BB852578B9AA0073DF26 /* KOKpanelView.m in Sources */,
+				4054BB5A2578B9040073DF26 /* KOKcontainerView.m in Sources */,
+				4054BBAD2578BA8B0073DF26 /* KOKInfoViewController.m in Sources */,
+				4054BB922578BA360073DF26 /* KOKGameWinViewController.m in Sources */,
+				4054BB7C2578B9930073DF26 /* KOKpanelBox.m in Sources */,
+				4054BB692578B93A0073DF26 /* KOKJewel.m in Sources */,
+				4054BB282578B7930073DF26 /* ViewController.m in Sources */,
+				4054BB9B2578BA490073DF26 /* KOKGameViewController.m in Sources */,
+				4054BBBE2578BB0E0073DF26 /* KOKTileBurst.m in Sources */,
+				4054BBA12578BA5A0073DF26 /* KOKSettingsViewController.m in Sources */,
+				4054BB6F2578B94C0073DF26 /* KOKjewelButton.m in Sources */,
+				4054BB632578B9210073DF26 /* KOKHelperMethods.m in Sources */,
+				4054BB222578B7930073DF26 /* AppDelegate.m in Sources */,
+				4054BB332578B7960073DF26 /* main.m in Sources */,
+				4054BBB52578BAFA0073DF26 /* KOKStandardButton.m in Sources */,
+				4054BB252578B7930073DF26 /* SceneDelegate.m in Sources */,
+				4054BBC42578BB280073DF26 /* KOKTileCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4054BB342578B7960073DF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4054BB3D2578B7960073DF26 /* LightBoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4054BB3F2578B7960073DF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4054BB482578B7960073DF26 /* LightBoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4054BB3A2578B7960073DF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4054BB1C2578B7930073DF26 /* LightBoom */;
+			targetProxy = 4054BB392578B7960073DF26 /* PBXContainerItemProxy */;
+		};
+		4054BB452578B7960073DF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4054BB1C2578B7930073DF26 /* LightBoom */;
+			targetProxy = 4054BB442578B7960073DF26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4054BB292578B7930073DF26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4054BB2A2578B7930073DF26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4054BB2E2578B7960073DF26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4054BB2F2578B7960073DF26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4054BB4A2578B7960073DF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4054BB4B2578B7960073DF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4054BB4D2578B7960073DF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26C6TQKPPY;
+				INFOPLIST_FILE = LightBoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LightBoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4054BB4E2578B7960073DF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26C6TQKPPY;
+				INFOPLIST_FILE = LightBoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LightBoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4054BB502578B7960073DF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightBoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LightBoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightBoom.app/LightBoom";
+			};
+			name = Debug;
+		};
+		4054BB512578B7960073DF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightBoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LightBoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightBoom.app/LightBoom";
+			};
+			name = Release;
+		};
+		4054BB532578B7960073DF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightBoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LightBoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightBoom;
+			};
+			name = Debug;
+		};
+		4054BB542578B7960073DF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LightBoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kok.LightBoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LightBoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4054BB182578B7930073DF26 /* Build configuration list for PBXProject "LightBoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4054BB4A2578B7960073DF26 /* Debug */,
+				4054BB4B2578B7960073DF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4054BB4C2578B7960073DF26 /* Build configuration list for PBXNativeTarget "LightBoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4054BB4D2578B7960073DF26 /* Debug */,
+				4054BB4E2578B7960073DF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4054BB4F2578B7960073DF26 /* Build configuration list for PBXNativeTarget "LightBoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4054BB502578B7960073DF26 /* Debug */,
+				4054BB512578B7960073DF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4054BB522578B7960073DF26 /* Build configuration list for PBXNativeTarget "LightBoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4054BB532578B7960073DF26 /* Debug */,
+				4054BB542578B7960073DF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4054BB152578B7930073DF26 /* Project object */;
+}
