@@ -13,6 +13,7 @@
 #import "KOKTileView.h"
 
 @interface KOKViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *logiImgwView;
 
 @end
 
@@ -22,6 +23,9 @@
     // Do any additional setup after loading the view.
     
     [self createMyButtons];
+    self.logiImgwView.layer.cornerRadius = 80;
+    self.logiImgwView.layer.masksToBounds = YES;
+    
 }
 
 

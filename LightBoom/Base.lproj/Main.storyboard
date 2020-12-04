@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sJH-6H-5v8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sJH-6H-5v8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -60,17 +61,37 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.5841730812" green="0.73672889009999998" blue="0.95266661350000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020-12-4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXN-DL-QRc">
+                                <rect key="frame" x="124" y="796" width="166" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-8" translatesAutoresizingMaskIntoConstraints="NO" id="3VB-gg-lCg">
+                                <rect key="frame" x="127" y="591" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="ArS-oz-OYy"/>
+                                    <constraint firstAttribute="width" constant="160" id="K9c-lb-hXw"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vmY-PF-CRd"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="lXN-DL-QRc" firstAttribute="top" secondItem="3VB-gg-lCg" secondAttribute="bottom" constant="45" id="Ooy-QS-0jc"/>
                             <constraint firstItem="gO1-Qo-e9y" firstAttribute="leading" secondItem="vmY-PF-CRd" secondAttribute="leading" id="fH0-4l-QFq"/>
                             <constraint firstAttribute="bottom" secondItem="gO1-Qo-e9y" secondAttribute="bottom" id="hua-Ha-cay"/>
+                            <constraint firstItem="vmY-PF-CRd" firstAttribute="bottom" secondItem="lXN-DL-QRc" secondAttribute="bottom" constant="25" id="iNb-i6-KEM"/>
                             <constraint firstItem="gO1-Qo-e9y" firstAttribute="top" secondItem="khC-ue-M32" secondAttribute="top" id="nfp-16-se3"/>
                             <constraint firstItem="gO1-Qo-e9y" firstAttribute="trailing" secondItem="vmY-PF-CRd" secondAttribute="trailing" id="r2j-ZS-Ve3"/>
+                            <constraint firstItem="3VB-gg-lCg" firstAttribute="centerX" secondItem="khC-ue-M32" secondAttribute="centerX" id="yCF-ZG-MnV"/>
+                            <constraint firstItem="lXN-DL-QRc" firstAttribute="centerX" secondItem="khC-ue-M32" secondAttribute="centerX" id="yyL-XR-jQM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YHt-i2-P3l"/>
+                    <connections>
+                        <outlet property="logiImgwView" destination="3VB-gg-lCg" id="buy-TX-W4N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9p-Cq-skg" sceneMemberID="firstResponder"/>
             </objects>
@@ -175,10 +196,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="LkX-xa-zej"/>
         <segue reference="YZK-8g-0kM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="bg" width="250" height="444.66665649414062"/>
         <image name="icon-8" width="83.5" height="83.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
