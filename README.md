@@ -1,2 +1,2 @@
 # ZhuoxieLikeKOKFootBall
-桌斜喜欢体育，但是不能亲自参与，可以给不能参与足球运动的伙伴另外一种体验
+The table slope likes sports, but can't participate personally. You can give another experience to partners who can't participate in football.
